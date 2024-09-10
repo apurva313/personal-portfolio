@@ -10,6 +10,22 @@ export default function Home() {
         LinkedIn
           </button>
       </Link>
+      <Link href="https://github.com/apurva313" target="_blank" className="justify-center items-center">
+        <button className="bg-white text-black border border-black px-4 py-2 hover:bg-black hover:border-white hover:text-white transition-colors duration-300 rounded-md">
+          GitHub
+        </button>
+      </Link>
+      <Link href="https://twitter.com/apurva313" target="_blank" className="justify-center items-center">
+        <button className="bg-white text-black border border-black px-4 py-2 hover:bg-black hover:border-white hover:text-white transition-colors duration-300 rounded-md">
+          Twitter
+        </button>
+      </Link>
+      <Link href="https://linktr.ee/apurvakumar" target="_blank" className="justify-center items-center">
+        <button className="bg-white text-black border border-black px-4 py-2 hover:bg-black hover:border-white hover:text-white transition-colors duration-300 rounded-md">
+          Linktree
+        </button>
+      </Link>
+      
     </div>
   );
 }
